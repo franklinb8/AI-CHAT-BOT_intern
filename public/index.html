@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Study Assistant - Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">Aadhi AI</div>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Chat Assistant</a></li>
+            <li><a href="quiz.html">Quiz Generator</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="account.html">Account Details</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main-content">
+        <header>
+            <h1>Chat with AI Assistant</h1>
+            <p>Your intelligent study companion</p>
+        </header>
+
+        <div id="chat-container">
+            <div class="message ai-msg">Hello! I'm Aadhi. What concept are we studying today?</div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-container">
+                <input type="text" id="user-input" placeholder="Ask anything about your studies...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">Aadhi AI</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Chat Assistant</a></li>
+            <li><a href="quiz.html">Quiz Generator</a></li>
+            <li class="active"><a href="profile.html">My Profile</a></li>
+            <li><a href="account.html">Account Details</a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <header><h1>My Profile</h1></header>
+        <div class="card-container">
+            <div class="card">
+                <h2>Student Info</h2>
+                <p><strong>Username:</strong> StudyMaster_2026</p>
+                <p><strong>Email:</strong> user@college.edu</p>
+                <p><strong>Joined:</strong> April 2026</p>
+            </div>
+            <div class="card">
+                <h2>Usage Status</h2>
+                <p id="usage-text">0 / 20 messages used</p>
+                <div class="usage-bar"><div id="usage-fill" class="usage-fill"></div></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Study Assistant - Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">Aadhi AI</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Chat Assistant</a></li>
+            <li class="active"><a href="quiz.html">Quiz Generator</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="account.html">Account Details</a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <header>
+            <h1>Quiz Generator</h1>
+            <p>Test your knowledge on any topic</p>
+        </header>
+        <div style="padding: 40px; text-align: center;">
+            <input type="text" id="quiz-topic" placeholder="Enter topic (e.g. Photosynthesis)" style="max-width: 400px;">
+            <button onclick="generateQuiz()">Generate Quiz</button>
+        </div>
+        <div id="quiz-results" class="card-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
